@@ -143,6 +143,7 @@ h3 {
     display: grid;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .setText h1{
@@ -167,4 +168,69 @@ h3 {
     top: 69px;
     right: 69px;
     max-width: 21.7vw;
+}
+
+.faq {
+    display: grid;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    gap: 10px;
+    padding: 10px;
+}
+
+.faq h1{
+    text-align: center;
+}
+
+.faq .ques {
+    width: 70vw;
+    display: flex;
+    background: rgb(52, 49, 49);
+    padding: 6px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.faq .ques h2{
+    font-size: 20px;
+}
+
+.faq .ques:hover {
+    background-color: rgb(121, 119, 119);
+}
+
+footer{
+    display: grid;
+    color: white; 
+}
+
+.questions {
+    padding: 1rem 13rem 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 90vw;
+    margin: auto;
+    gap: 10px;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 5rem;
+}
+
+.footer a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
 }
