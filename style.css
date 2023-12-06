@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -5,15 +7,54 @@
 
 .main{
     background-image: url(asets/bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
     height: 80vh;
     position: relative;
+}
+
+.main .navbar{
+    max-width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 15px 0 0 0;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.main .navbar span{
+    width: 15%;
+}
+
+.main .navbar span img{
+    color: red;
+    height: 2.5rem;
+    position: relative;
+    z-index: 10;
 }
 
 .main .box{
     height: 80vh;
     width: 100%;
-    opacity: 0.4;
+    opacity: 0.65;
     position: absolute;
     top: 0;
     background-color: black;
 }
+
+.main .fees{
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+    gap: 23px;
+}
+
+.main .fees 
