@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
 
 *{
     padding: 0;
     margin: 0;
 }
 
+body{
+    background-color: black;
+}
+
 .main{
     background-image: url(asets/bg.jpg);
     background-position: center center;
     background-size: max(1200px, 100vw);
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 
@@ -36,7 +40,7 @@
 }
 
 .main .box{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     opacity: 0.65;
     position: absolute;
@@ -55,6 +59,112 @@
     flex-direction: column;
     z-index: 10;
     gap: 23px;
+    padding: 23px 23px 19px;
 }
 
-.main .fees 
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    padding: 4px 10px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(175, 172, 172);
+}
+
+.btn select {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.btn select option {
+    color: black;
+}
+
+.btn img {
+    height: 13px;
+    color: white;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.btn-red-sn {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 4px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.main input {
+    background-color: transparent;
+    color: white;
+    padding: 4px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgb(99, 97, 97);
+}
+
+.separation {
+    height: 5px;
+    background-color: rgb(68, 66, 66);
+    opacity: 0.65;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.setText {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.setText h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+.setImg {
+    position: relative;
+    top: 8px;
+    padding: 8px;
+    margin: 0;
+}
+
+.setImg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.setImg video {
+    position: absolute;
+    top: 69px;
+    right: 69px;
+    max-width: 21.7vw;
+}
