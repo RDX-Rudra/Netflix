@@ -107,6 +107,10 @@ h3 {
     border-radius: 5px;
     border-color: red;
 }
+.btn-red-sn a{
+    color: white;
+    text-decoration: none;
+}
 
 .btn-red {
     background-color: red;
@@ -260,6 +264,15 @@ footer .questions {
     }
     .first {
         padding: 15px 0;
+    }
+    .setImg img {
+        max-width: 350px;
+    }
+    .setImg video {
+        position: absolute;
+        top: 63px;
+        right: 59px;
+        max-width: 252px;
     }
 
     .footer {
