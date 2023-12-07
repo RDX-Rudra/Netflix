@@ -258,6 +258,9 @@ footer .questions {
         display: flex;
         font-size: 20px;
     }
+    .first {
+        padding: 15px 0;
+    }
 
     .footer {
         display: grid;
