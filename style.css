@@ -240,7 +240,7 @@ footer .questions {
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     flex-wrap: wrap;
 }
 
